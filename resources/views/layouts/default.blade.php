@@ -9,13 +9,13 @@
     @include('includes.header')
 </header>
 
+<footer class="row">
+    @include('includes.footer')
+</footer>
+
 <main role="main">
 
     @yield('content')
-
-    <footer class="row">
-        @include('includes.footer')
-    </footer>
 
 </main>
 
