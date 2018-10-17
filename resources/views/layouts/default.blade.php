@@ -1,23 +1,25 @@
+
 <!doctype html>
 <html lang="en">
 <head>
     @include('includes.head')
 </head>
 <body>
-
-<header>
+<div class="container-fluid">
     @include('includes.header')
-</header>
+    <footer class="container-fluid bg-dark text-white text-justify">
 
-<footer class="row">
-    @include('includes.footer')
-</footer>
+        <div class="container">
 
+            @include('includes.footer')
+
+        </div>
+    </footer>
+</div>
 <main role="main">
-
     @yield('content')
-
 </main>
+@include('includes.footer')
 
 </body>
 </html>
